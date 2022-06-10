@@ -8,7 +8,9 @@
         {
           "name": "live",
           "urls": [
-            base64(https://raw.githubusercontent.com/liukai163/maomao/main/tv/live.txt) = Y2xhbjovL21hb21hby90di9saXZlLnR4dA==
+			//"proxy://do=live&type=txt&ext=aHR0cDovLzgxLjcwLjc3LjU6NzgwMC90di8="
+			"https://raw.githubusercontent.com/liukai163/maomao/main/tv/live.txt"
+            //base64(https://raw.githubusercontent.com/liukai163/maomao/main/tv/live.txt) = Y2xhbjovL21hb21hby90di9saXZlLnR4dA==
             //"proxy://do=live&type=txt&ext=Y2xhbjovL21hb21hby90di9saXZlLnR4dA=="
           ]
         }
