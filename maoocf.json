@@ -17,15 +17,24 @@
     }
   ],
   "sites": [
-    {
-      "key": "小宝影院",
-      "name": "小宝影院",
-      "type": 3,
-      "api": "csp_Xiaoh",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+	{"key":
+	  "if101资源",
+	  "name":"if101(海外推荐)",
+	  "type":0,
+	  "api":"https://demo.if101.tv/api.php/provide/vod/at/xml",
+	  "searchable":1,
+	  "quickSearch":0,
+	  "filterable":0
+	},
+	{"key":
+	  "一帆资源(VPN)",
+	  "name":"一帆资源(VPN)",
+	  "type":1,
+	  "api":"http://api.if101.tv/v1/vod?ac=list",
+	  "playUrl":"",
+	  "searchable":0,
+	  "quickSearch":0
+	},
     {
       "key": "csp_xpath_独播库",
       "name": "独播库(XPF)(播放器要改成系统播放器)",
